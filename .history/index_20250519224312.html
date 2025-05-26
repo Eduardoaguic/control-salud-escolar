@@ -1,0 +1,91 @@
+<!-- PANTALLA 1: Panel Principal del Profesional de Salud -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel de Salud Escolar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Panel General de Indicadores</h1>
+  </header>
+  <main>
+    <section id="resumen">
+      <h2>Resumen por Institución</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Institución</th>
+            <th>Prom. IMC</th>
+            <th>Prom. Hemoglobina</th>
+            <th>Alertas Activas</th>
+          </tr>
+        </thead>
+        <tbody id="tablaResumen">
+          <!-- Datos generados dinámicamente -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- PANTALLA 2: Registro de Indicadores de Salud -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrar Indicador de Salud</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Registro de Indicadores</h1>
+  </header>
+  <main>
+    <form id="formIndicador">
+      <label>DNI Escolar:
+        <input type="text" id="dni" required>
+      </label>
+      <label>Peso (kg):
+        <input type="number" step="0.1" id="peso" required>
+      </label>
+      <label>Talla (m):
+        <input type="number" step="0.01" id="talla" required>
+      </label>
+      <label>Hemoglobina (g/dL):
+        <input type="number" step="0.1" id="hemoglobina" required>
+      </label>
+      <button type="submit">Registrar</button>
+    </form>
+    <p id="resultado"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- PANTALLA 3: Visualización de Alertas -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Alertas de Salud</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Alertas de Salud Escolar</h1>
+  </header>
+  <main>
+    <section id="alertas">
+      <h2>Listado de Alertas</h2>
+      <ul id="listaAlertas">
+        <!-- Alertas se listarán aquí -->
+      </ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
