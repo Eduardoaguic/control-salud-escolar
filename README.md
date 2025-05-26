@@ -19,11 +19,15 @@ Aplicativo web que permite registrar y monitorear el estado de salud de escolare
 
 ## 📷 Vista previa
 
-*(Agrega una imagen si lo deseas)*
+
+
 
 ## 👨‍💻 Autores
 
-- Eduardo Aguilar
+- Aguilar Condor Eduardo Sebastian
+- Chapilliquen Cordova Manuel Antonio
+- Aldave Caldas Jonathan Grimaldo
+
 - Proyecto académico - Ingeniería de Sistemas
 
 ## 🔗 Enlaces útiles
