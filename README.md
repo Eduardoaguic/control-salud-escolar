@@ -1,36 +1,37 @@
-# 📊 Control de Salud Escolar
+# 🩺 Control de Salud Escolar
 
-Aplicativo web que permite registrar y monitorear el estado de salud de escolares en zonas aledañas. Calcula automáticamente el IMC y verifica niveles de hemoglobina para generar alertas preventivas.
+Aplicativo web para registrar y monitorear el estado de salud de escolares en zonas aledañas. Calcula automáticamente el IMC y estima niveles de hemoglobina para generar **alertas preventivas** por institución y grado.
 
-## 🧠 Funcionalidades
+## 🧩 Funcionalidades
 
-- Registro de peso, talla y hemoglobina por escolar.
-- Cálculo de IMC automático.
-- Generación de alertas si el IMC es bajo o hay riesgo de anemia.
-- Panel general con resumen por institución educativa.
-- Predicción de riesgos sanitarios en base a datos registrados.
-- Asistente virtual básico integrado para resolver dudas.
+- 📋 Registro de estudiantes con datos: nombre, edad, género, peso, talla y grado.
+- 🧮 Cálculo automático de IMC y nivel estimado de hemoglobina.
+- 🚨 Generación de alertas médicas ante posibles casos de anemia (<10 g/dL).
+- 📊 Visualización gráfica de indicadores de salud por grupo.
+- 🏫 Panel resumen por institución educativa y grado escolar.
+- 🤖 Asistente virtual integrado con mensajes de ayuda en cada sección.
 
-## 🛠 Tecnologías
+## ⚙️ Tecnologías utilizadas
 
-- HTML, CSS y JavaScript
-- Arquitectura simple frontend
-- Chatbot simulado por reglas
+- `HTML`, `CSS`, `JavaScript`
+- `PHP` para inserción y consulta de datos
+- `Chart.js` para visualización de gráficos
+- Arquitectura simple basada en `XAMPP` con `MySQL`
 
-## 📷 Vista previa
+## 📸 Vista previa
 
+_(Agregar capturas aquí o GIFs del sistema en funcionamiento)_
 
+## 👥 Autores
 
+- 👨‍💻 Eduardo Sebastián Aguilar Cóndor  
+- 👨‍💻 Manuel Antonio Chapilliquén Córdova  
+- 👨‍💻 Jonathan Grimaldo Aldave Caldas  
 
-## 👨‍💻 Autores
-
-- Aguilar Condor Eduardo Sebastian
-- Chapilliquen Cordova Manuel Antonio
-- Aldave Caldas Jonathan Grimaldo
-
-- Proyecto académico - Ingeniería de Sistemas
+Proyecto académico de la carrera de **Ingeniería de Sistemas**
 
 ## 🔗 Enlaces útiles
 
-- [Repositorio en GitHub](https://github.com/Eduardoaguic/control-salud-escolar)
-- [Video del proyecto en Drive](enlace-aqui)
+- 📂 [Repositorio GitHub](https://github.com/Eduardoaguic/control-salud-escolar)
+- 🎥 [Video del proyecto (Google Drive)](https://drive.google.com/drive/folders/1U3ZHuLgvqY1EA8ACSREFJ7YQWa4cPoSG?usp=sharing)
+
